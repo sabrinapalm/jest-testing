@@ -1,5 +1,14 @@
-Rapporten
+Temperature:
+Har ni testat samma saker?
+Om ni har missat något testfall som de andra täckte in - varför tänkte ni inte på det? Hur kan man tänka för att inte missa sådana fall i framtiden?
+Vilka är de viktigaste testfallen?
 
+DriversLicense:
+Har ni testat samma saker?
+Om ni har missat något testfall som de andra täckte in - varför tänkte ni inte på det? Hur kan man tänka för att inte missa sådana fall i framtiden?
+Vilka är de viktigaste testfallen?
+
+Bank:
 Har ni testat samma saker?
 Om ni har missat något testfall som de andra täckte in - varför tänkte ni inte på det? Hur kan man tänka för att inte missa sådana fall i framtiden?
 Vilka är de viktigaste testfallen?
