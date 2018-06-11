@@ -1,10 +1,11 @@
 import { canGetLicense } from '../DriversLicense';
 
-const A = 'A';
-const B = 'B';
-const BE = 'BE';
-const C = 'C';
-const D = 'D';
+const A = 'A',
+      B = 'B',
+      BE = 'BE',
+      C = 'C',
+      D = 'D'
+
 
 // Om båda parametrarna har tillåtna värden så ska funktionen returnera antingen true eller false.
 // Annars ska funktionen kasta ett Error med throw.

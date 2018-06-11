@@ -1,7 +1,5 @@
 import { toFahrenheit } from '../Temperature';
 
-// toBe - gör en jämförelse utan typkonvertering, dvs ===
-
 describe('Celsius to Farenheit TEST', () => {
 
   //Test giltiga temperaturer

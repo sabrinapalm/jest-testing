@@ -1,8 +1,8 @@
-const A = 'A';
-const B = 'B';
-const BE = 'BE';
-const C = 'C';
-const D = 'D';
+const A = 'A',
+      B = 'B',
+      BE = 'BE',
+      C = 'C',
+      D = 'D'
 
 export const canGetLicense = (license, age) => {
 
@@ -10,13 +10,12 @@ export const canGetLicense = (license, age) => {
     throw new Error('Do you even exist?')
   }
 
-  if (license && age === undefined || license && age === null || license === NaN ) {
+  if (license && age === undefined || license && age === null || license === NaN  ) {
     throw new Error('Those are not valid inputs')
   }
 
-  //Handle NaN and String, fråga någon.
-  if ( age === String || age == NaN ) {
-    throw new Error('Those are not valid ages')
+  if ( isNaN(age) ) {
+    throw new Error('NaN is not a valid age')
   }
 
   switch(license){
