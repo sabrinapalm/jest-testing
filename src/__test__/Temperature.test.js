@@ -5,12 +5,12 @@ describe('Celsius to Farenheit TEST', () => {
   //Test giltiga temperaturer
   //Giltig temperatur ex. 25, 0, 123456789
   it('should pass - number is valid', () => {
-    expect(Number.isNaN(toFahrenheit(25))).toBeFalsy();
+    expect(Number.isNaN(toFahrenheit(25))).toBe(false);
   });
 
   //Giltig temperatur som sträng '32'
   it('should pass - string to number is valid', () => {
-    expect(Number.isNaN(toFahrenheit('32'))).toBeFalsy();
+    expect(Number.isNaN(toFahrenheit('32'))).toBe(false);
   });
 
 

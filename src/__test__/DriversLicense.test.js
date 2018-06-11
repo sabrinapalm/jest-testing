@@ -14,47 +14,47 @@ const A = 'A',
 
 describe('Am I old enough for a drivers license?', () => {
 
-  //Test underaged
+  //Test id underaged
   it('should fail - To young for A', () => {
-    expect(canGetLicense(A, 20)).toBeFalsy();
+    expect(canGetLicense(A, 20)).toBe(false);
   });
 
   it('should fail - To young for B', () => {
-    expect(canGetLicense(B, 16)).toBeFalsy();
+    expect(canGetLicense(B, 16)).toBe(false);
   });
 
   it('should fail - To young for BE', () => {
-    expect(canGetLicense(BE, 16)).toBeFalsy();
+    expect(canGetLicense(BE, 17)).toBe(false);
   });
 
   it('should fail - To young for C', () => {
-    expect(canGetLicense(C, 18)).toBeFalsy();
+    expect(canGetLicense(C, 18)).toBe(false);
   });
 
   it('should fail - To young for B', () => {
-    expect(canGetLicense(D, 20)).toBeFalsy();
+    expect(canGetLicense(D, 20)).toBe(false);
   });
 
 
   //Test if old enough
   it('should pass - old enough for A', () => {
-    expect(canGetLicense(A, 30)).toBeTruthy();
+    expect(canGetLicense(A, 30)).toBe(true);
   });
 
   it('should pass - old enough for B', () => {
-    expect(canGetLicense(B, 18)).toBeTruthy();
+    expect(canGetLicense(B, 18)).toBe(true);
   });
 
   it('should pass - old enough for BE', () => {
-    expect(canGetLicense(BE, 20)).toBeTruthy();
+    expect(canGetLicense(BE, 20)).toBe(true);
   });
 
   it('should pass - old enough for C', () => {
-    expect(canGetLicense(C, 25)).toBeTruthy();
+    expect(canGetLicense(C, 25)).toBe(true);
   });
 
   it('should pass - old enough for D', () => {
-    expect(canGetLicense(D, 25)).toBeTruthy();
+    expect(canGetLicense(D, 25)).toBe(true);
   });
 
 
