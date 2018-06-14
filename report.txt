@@ -7,7 +7,8 @@ Dem har även testat en tom sträng till skillnad från mig som testat en namn-s
 Även i .toBe som kollar det slutgiltiga värdet är lite skillnad. 
 Jag har använt mig av true och false medans dem har skrivit in sitt värde tillsammans med uträkningen av celsius  till farenheit. 
 Något som jag ej gjort men kommer göra i framtiden är att deklarera värden i en variabel inuti testet istället för att skriva in värdet direkt i funktionen. 
-På banktestet har jag gjort lite annorlunda, jag har mindre deparata testfunktioner medans Elins och Johans test är något större, dem har lagt in flera expect funktioner i ett och samma test med olika värden.
+På banktestet har jag gjort lite annorlunda, jag har mindre deparata testfunktioner medans Elins och Johans test är något större, 
+dem har lagt in flera expect funktioner i ett och samma test med olika värden.
 
 
 
@@ -21,4 +22,6 @@ Då jag är ny till TDD så skyller jag på oerfarenhet. För att inte missa det
 
 Vilka är de viktigaste testfallen?
 
-Test som testar gränsvärden, test som kan hantera felaktiga input-värden. Test som visar att funktionaliteten är korrekt och att resultatet blir ett korrekt värde, om inte kasta ett throw.
+Test som testar gränsvärden. 
+Test som kan hantera felaktiga input-värden. 
+Test som visar att funktionaliteten är korrekt och att resultatet blir ett korrekt värde, om inte kasta ett throw.
