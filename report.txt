@@ -1,4 +1,5 @@
-﻿Jag har valt att granska Erik och Jonathans kod och därefter Johan och Elins kod. 
+<b>Jag har valt att granska Erik och Jonathans kod och därefter Johan och Elins kod.</b>
+ 
 Har ni testat samma saker?
 Vi har i princip testat samma saker, jag har ej testat att göra ett objekt eller lista som en parameter. Dem har även testat en tom sträng till skillnad från mig som testat en namn-sträng. Även i .toBe som kollar det slutgiltiga värdet är lite skillnad. Jag har använt mig av true och false medans dem har skrivit in sitt värde tillsammans med uträkningen av celsius  till farenheit. Något som jag ej gjort men möjligtvis gör i framtiden är att deklarera värden i en variabel inuti testet istället för att skriva in värdet direkt i funktionen. På banktestet har jag gjort lite annorlunda, jag har mindre deparata testfunktioner medans Elins och Johans test är något större, dem har lagt in flera expect funktioner i ett och samma test med olika värden. Något för att tänka på i framtiden. 
 
