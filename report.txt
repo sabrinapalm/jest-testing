@@ -16,7 +16,8 @@ Om ni har missat något testfall som de andra täckte in - varför tänkte ni in
 Hur kan man tänka för att inte missa sådana fall i framtiden?
 
 Jag har missat att använda ett objekt/lista som värde att skicka med i mina testfall. Även gränsvärden har jag varit dålig på att testa. 
-Då jag är ny till TDD så skyller jag på oerfarenhet. För att inte missa detta i framtiden kanske kommunikation skulle kunna vara en lösning, att bolla med andra vad som är relevant att testa och inte. 
+Då jag är ny till TDD så skyller jag på oerfarenhet. För att inte missa detta i framtiden kanske kommunikation skulle kunna vara en lösning, 
+att bolla med andra vad som är relevant att testa och inte. 
 
 
 
